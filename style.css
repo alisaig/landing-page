@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,900;1,300&display=swap');
 
 body {
     font-family: Roboto, Helvetica, sans-serif;
@@ -30,13 +30,9 @@ body > * {
     background-color: #1F2937;
 }
 
-/* .header, .description, .prompt, .footer {
-    color: white;
-} */
-
-.header > .logo {
+.logo, .call, .quote-source {
     font-size: 24px;
-    color: #f9faf8;
+    font-weight: 500;
 }
 
 .description {
@@ -60,10 +56,13 @@ body > * {
     font-weight: 900;
 }
 
-.links .subtext {
+.logo, .title {
+    color:#F9FAF8;
+}
+
+.links, .subtext, .text {
     font-size: 18px;
     color: #E5E7EB;
-    color: blue;
 }
 
 .randtitle {
@@ -93,12 +92,13 @@ body > * {
     background-color: #E5E7EB;
     box-sizing: border-box;
     padding: 20px 240px;
+    color: #1F2937;
  }
 
  .quote-text {
     font-size: 36px;
     font-style: italic;
-    color: #1F2937;
+    font-weight: lighter;
  }
 
  .prompt {
@@ -130,10 +130,14 @@ button, .prompt {
 }
 
 button {
-    width: 100px;
+    width: 140px;
     height: 40px;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#bold {
+    border: 3px solid white;
 }
 
 .cat-photo > img {
