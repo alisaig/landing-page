@@ -1,0 +1,9 @@
+# The Odin Project: Landing Page Project
+
+Overall, I'm quite happy with my end result and I feel like I learned a lot from the project! Creating the html and stylesheets from scratch and learning to organize various elements hierarchically was a very useful experience and definitely gave me a better understanding of how most websites work.
+
+## The Difficulties and Lessons:
+- Setting the padding for multiple elements and keeping track of it all got a little confusing at some point, especially when some elements deviated from the others. For example, the quote element needed to have more padding then all the others and I had set a common horizontal padding for all the parent elements. So when I tried to set extra padding for the quote, the element stretched out wider instead. This was because I had forgotten that different paddings set for the same element don't cumulatively add up, but cancel out instead.  
+This is something I should keep in mind in the future as the projects will get longer and it will be harder to spot when the attributes of parent elements interfere with those set for the child.
+- I generally tried to keep the structure of both the html and css sheets neat, but while I think I achieved this for the former, the latter got a little messy in the end. I organized the css sheet in sections, but once I started adding the styles for certain common elements like buttons everything got a confusing and I sometimes had to command+f to find what I was looking for.  
+In the future I should add comments between sections to separate them more clearly and keep the styles for the common elements at the top so they're easier to find.
