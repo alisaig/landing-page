@@ -30,20 +30,29 @@ body > * {
     background-color: #1F2937;
 }
 
-.header, .description, .prompt, .footer {
+/* .header, .description, .prompt, .footer {
     color: white;
-}
+} */
 
 .header > .logo {
     font-size: 24px;
+    color: #f9faf8;
 }
 
 .description {
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
+    gap: 30px;
     padding-top: 80px;
     padding-bottom: 80px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
 }
 
 .title {
@@ -51,9 +60,9 @@ body > * {
     font-weight: 900;
 }
 
-.subtitle, .links .subtext {
+.links .subtext {
     font-size: 18px;
-    /* color: #E5E7EB; */
+    color: #E5E7EB;
     color: blue;
 }
 
@@ -117,6 +126,14 @@ a {
 button, .prompt {
     background-color: #3882F6;
     border-radius: 10px;
+    color:white;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .cat-photo > img {
